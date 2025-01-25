@@ -3,11 +3,7 @@ export default function Home() {
         <div className="space-y-8 p-8">
             <div className="text-center text-3xl">becca chang</div>
             <div className="text-center w-1/2 mx-auto">
-                Lorem ipsum odor amet, consectetuer adipiscing elit. Tempor quam a sit dolor porta diam leo inceptos
-                nostra. Posuere integer viverra sit, semper nisl arcu porta cras. Suspendisse sem ullamcorper porttitor
-                interdum litora tellus pellentesque. Commodo egestas integer suscipit penatibus natoque ut sit. Felis
-                accumsan cubilia ultricies nulla erat consequat, tempus nullam. Augue magna enim cursus augue aliquam
-                hendrerit enim congue lacus.
+                I'm a third year undergrad at MIT studying Physics and Electrical Engineering (8 and 6-1). I'm currently doing research in Prof. Isaac Chuang's lab, and I'm widely interested in quantum tech and stat mech. At MIT, I'm most involved in Puzzle Club, Wind Ensemble, and iQuHACK.
             </div>
         </div>
     );
