@@ -1,6 +1,13 @@
 export default function Home() {
     return (
         <div className="p-8">
+            <div className="text-center">
+                <img 
+                    src="/starrynight.jpeg" 
+                    alt="Profile" 
+                    className="mx-auto w-24 h-24" 
+                />
+            </div>
             <div className="text-center text-3xl">becca chang</div>
             <div className="text-center text-base mt-1">rebchang[at]mit[dot]edu</div>
             <div className="text-center w-1/2 mx-auto mt-8">
