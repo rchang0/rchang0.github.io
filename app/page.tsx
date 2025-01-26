@@ -8,7 +8,6 @@ export default function Home() {
                     width="25%"
                 />
                 <br/>
-                <br/>
             </center>
             <div className="text-center text-3xl">becca chang</div>
             <div className="text-center text-base mt-1">rebchang[at]mit[dot]edu</div>
