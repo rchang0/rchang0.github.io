@@ -1,3 +1,3 @@
 export default function Puzzles() {
-    return <div>puzzles</div>;
+    return <div>under construction... check back later</div>;
 }
