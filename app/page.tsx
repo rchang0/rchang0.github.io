@@ -5,7 +5,7 @@ export default function Home() {
                 <img 
                     src="/starrynight.jpeg" 
                     alt="Profile" 
-                    className="mx-auto w-50 h-50 mb-4" 
+                    className="mx-auto w-100 h-100" 
                 />
             </div>
             <div className="text-center text-3xl">becca chang</div>
