@@ -6,7 +6,7 @@ export default async function Blog() {
         await fs.readFile(process.cwd() + "/app/blog/posts.json", "utf8"),
     );
     return (
-        <div className="w-1/2 mx-auto pt-8 flex flex-col space-y-8">
+        <div className="max-w-screen-sm px-8 mx-auto pt-8 flex flex-col space-y-8">
             {posts.map((post) => (
                 <Link href={"/blog" + post.path} key={post.path} className="text-xl">
                     {post.date}: {post.title}
