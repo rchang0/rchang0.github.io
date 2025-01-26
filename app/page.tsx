@@ -3,7 +3,7 @@ export default function Home() {
         <div className="p-8">
             <center>
                 <img 
-                    src="/starrynight.jpeg" 
+                    src="/starrynight.jpg" 
                     alt="Profile" 
                     width="25%"
                 />
