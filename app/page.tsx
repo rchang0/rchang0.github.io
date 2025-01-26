@@ -7,8 +7,8 @@ export default function Home() {
                     alt="Profile" 
                     width="50%"
                 />
-                <br><br/>
-                <br><br/>
+                <br/>
+                <br/>
             </div>
             <div className="text-center text-3xl">becca chang</div>
             <div className="text-center text-base mt-1">rebchang[at]mit[dot]edu</div>
