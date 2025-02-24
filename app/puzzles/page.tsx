@@ -176,15 +176,16 @@ export default function Puzzles() {
 
         {/* High school logic puzzles */}
         <li>
-          A few random logic puzzles I wrote in high school{" "}
+          A few {" "}
           <a
             href="https://drive.google.com/file/d/1cHSfO7Mu66fNECkKSXm2gEVhPxv_TwOF/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            (Google Drive link)
-          </a>
+            random logic puzzles
+          </a>{" "}
+            I wrote in high school
         </li>
       </ul>
     </div>
