@@ -8,6 +8,9 @@ interface PuzzleEvent {
   collaborators?: string[];
 }
 
+// Define the heading tags we want to allow
+type HeadingTag = "h2" | "h3";
+
 const puzzleProjects: PuzzleEvent[] = [
   {
     title: "Brass Rat Hunt 2025",
@@ -77,9 +80,12 @@ const puzzleProjects: PuzzleEvent[] = [
   },
 ];
 
-function renderTitle(event: PuzzleEvent, Tag: keyof JSX.IntrinsicElements = "h2") {
+function renderTitle(event: PuzzleEvent, Tag: HeadingTag = "h2") {
+  // Choose the appropriate Tailwind classes based on the heading level
+  const className = Tag === "h2" ? "text-xl font-bold" : "text-lg font-semibold";
+
   return (
-    <Tag className={Tag === "h2" ? "text-xl font-bold" : "text-lg font-semibold"}>
+    <Tag className={className}>
       {event.url ? (
         <a
           href={event.url}
