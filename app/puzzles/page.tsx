@@ -97,7 +97,7 @@ export default function Puzzles() {
         {/* MIT Sudoku Open 2024 */}
         <li>
           <a
-            href="https://puzzles.mit.edu/sudokuopen/"
+            href="https://puzzles.mit.edu/sudokuopen/2024/index.html"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
@@ -141,7 +141,7 @@ export default function Puzzles() {
         {/* MIT Sudoku Open 2023 */}
         <li>
           <a
-            href="https://puzzles.mit.edu/sudokuopen/"
+            href="https://puzzles.mit.edu/sudokuopen/2023/index.html"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
