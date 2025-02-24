@@ -4,17 +4,28 @@ export default function Puzzles() {
   return (
     <div className="p-8 text-left">
       <p>
-        I write and solve a lot of puzzles &mdash; most recently with MIT Puzzle Club, Death &amp; Mayhem, wahoo!, NES, and USA Sudoku. Stay tuned for more puzzle projects I&rsquo;m working on with people from&hellip; all of them?
+        I write and solve a lot of puzzles &mdash; most recently with MIT Puzzle
+        Club, Death &amp; Mayhem, wahoo!, NES, and USA Sudoku. Stay tuned for
+        more puzzle projects I&rsquo;m working on with people from&hellip; all
+        of them?
       </p>
+
+      {/* Horizontal line after the first paragraph */}
+      <hr className="my-4" />
+
       <p>Some past puzzles I&apos;ve authored and hunts/puzzle events I&apos;ve worked on!</p>
 
       <ul className="list-disc list-inside ml-4">
+        {/* Brass Rat Hunt 2025 */}
         <li>
-          Brass Rat Hunt 2025 (
-          <a href="https://brassrathunt.org/" target="_blank" rel="noopener noreferrer">
-            https://brassrathunt.org/
+          <a
+            href="https://brassrathunt.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            Brass Rat Hunt 2025
           </a>
-          )
           <ul className="list-disc list-inside ml-6">
             <li>RSVP for a &lsquo;2Five Rings Event</li>
             <li>
@@ -22,106 +33,126 @@ export default function Puzzles() {
             </li>
           </ul>
         </li>
+
+        {/* Mystery Hunt 2025 (Death & Mayhem) */}
         <li>
-          Mystery Hunt 2025 (Death &amp; Mayhem) (
-          <a href="https://www.two-pi-noir.agency/" target="_blank" rel="noopener noreferrer">
-            https://www.two-pi-noir.agency/
+          <a
+            href="https://www.two-pi-noir.agency/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            Mystery Hunt 2025 (Death &amp; Mayhem)
           </a>
-          )
           <ul className="list-disc list-inside ml-6">
             <li>
-              Unreal Islands (
               <a
                 href="https://www.two-pi-noir.agency/puzzles/unreal_islands"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
               >
-                https://www.two-pi-noir.agency/puzzles/unreal_islands
-              </a>
-              ) (with Atul Shatavart Nadig and Henry Wong)
+                Unreal Islands
+              </a>{" "}
+              (with Atul Shatavart Nadig and Henry Wong)
             </li>
             <li>
-              Sounds Like a Dodo to Me (
               <a
                 href="https://www.two-pi-noir.agency/puzzles/sounds_like_a_dodo_to_me"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
               >
-                https://www.two-pi-noir.agency/puzzles/sounds_like_a_dodo_to_me
-              </a>
-              ) (with Atul Shatavart Nadig)
+                Sounds Like a Dodo to Me
+              </a>{" "}
+              (with Atul Shatavart Nadig)
             </li>
             <li>
-              Maze of Lies (
               <a
                 href="https://www.two-pi-noir.agency/puzzles/maze_of_lies"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
               >
-                https://www.two-pi-noir.agency/puzzles/maze_of_lies
-              </a>
-              ) (with Denis Auroux)
+                Maze of Lies
+              </a>{" "}
+              (with Denis Auroux)
             </li>
           </ul>
         </li>
+
+        {/* MIT Sudoku Open 2023 and 2024 */}
         <li>
-          MIT Sudoku Open 2023 and 2024 (
           <a
             href="https://puzzles.mit.edu/sudokuopen/"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            https://puzzles.mit.edu/sudokuopen/
+            MIT Sudoku Open 2023 and 2024
           </a>
-          )
           <ul className="list-disc list-inside ml-6">
             <li>various individual puzzles</li>
             <li>
-              Force / Acceleration team round (
+              Force / Acceleration team round{" "}
               <a
                 href="https://puzzles.mit.edu/sudokuopen/2024/team-ii-e.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
               >
-                https://puzzles.mit.edu/sudokuopen/2024/team-ii-e.pdf
-              </a>
-              ) (with Tyler Chen)
+                (pdf)
+              </a>{" "}
+              (with Tyler Chen)
             </li>
           </ul>
         </li>
+
+        {/* Aquarium Hunt 2023 and 2024 */}
         <li>
-          Aquarium Hunt 2023 and 2024 (
           <a
             href="https://puzzles.mit.edu/aquarium/2023/index.html"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            https://puzzles.mit.edu/aquarium/2023/index.html
+            Aquarium Hunt 2023 and 2024
           </a>
-          )
           <ul className="list-disc list-inside ml-6">
             <li>Elsa</li>
           </ul>
         </li>
+
+        {/* MIT Undergrad Math Association Puzzle */}
         <li>
-          MIT Undergrad Math Association Puzzle (
-          <a href="https://uma.mit.edu/puzzle" target="_blank" rel="noopener noreferrer">
-            https://uma.mit.edu/puzzle
-          </a>
-          ) (Nov 2022)
+          <a
+            href="https://uma.mit.edu/puzzle"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            MIT Undergrad Math Association Puzzle
+          </a>{" "}
+          (Nov 2022)
         </li>
+
+        {/* Davis Math Tournament Puzzle Round */}
         <li>Davis Math Tournament Puzzle Round 2021 and 2022</li>
+
+        {/* UC Davis Math Circle */}
         <li>UC Davis Math Circle: Alice: A Mathematical Adventure 2021</li>
+
+        {/* High school logic puzzles */}
         <li>
-          A few random logic puzzles I wrote in high school? (
+          A few random logic puzzles I wrote in high school?{" "}
           <a
             href="https://drive.google.com/file/d/1cHSfO7Mu66fNECkKSXm2gEVhPxv_TwOF/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            https://drive.google.com/file/d/1cHSfO7Mu66fNECkKSXm2gEVhPxv_TwOF/view?usp=sharing
+            (Google Drive link)
           </a>
-          )
         </li>
       </ul>
     </div>
