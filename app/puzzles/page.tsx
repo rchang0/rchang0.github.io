@@ -13,7 +13,7 @@ export default function Puzzles() {
       <p>
         wahoo! is a new Mystery Hunt team composed of mostly MIT students and alumni. 
           We'll do online hunts throughout the year together. Please reach out to me 
-          if you're interested in joining!
+          if you&apos;re interested in joining!
       </p>
       <hr className="my-4" />
 
