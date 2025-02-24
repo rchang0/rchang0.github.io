@@ -10,6 +10,12 @@ export default function Puzzles() {
 
       {/* Horizontal line after the first paragraph */}
       <hr className="my-4" />
+      <p>
+        wahoo! is a new Mystery Hunt team composed of mostly MIT students and alumni. 
+          We'll do online hunts throughout the year together. Please reach out to me 
+          if you're interested in joining!
+      </p>
+      <hr className="my-4" />
 
       <p>Some past puzzles I&apos;ve authored and hunts/puzzle events I&apos;ve worked on!</p>
 
