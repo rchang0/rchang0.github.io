@@ -78,52 +78,40 @@ const puzzleProjects: PuzzleEvent[] = [
 ];
 
 export default function Puzzles() {
+  const renderTitle = (event: PuzzleEvent, Tag: keyof JSX.IntrinsicElements = 'h2') => {
+    return (
+      <Tag className={Tag === 'h2' ? "text-xl font-bold" : "text-lg font-semibold"}>
+        {event.url ? (
+          <a
+            href={event.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            {event.title}
+          </a>
+        ) : (
+          event.title
+        )}
+        {event.collaborators && (
+          <span> ({event.collaborators.join(", ")})</span>
+        )}
+      </Tag>
+    );
+  };
+
   return (
     <div className="p-8">
       <div className="text-left">
         {puzzleProjects.map((project) => (
           <div key={project.title} className="mb-6">
-            <h2 className="text-xl font-bold">{project.title}</h2>
-            {project.url && (
-              <p>
-                <a
-                  href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:underline"
-                >
-                  {project.url}
-                </a>
-              </p>
-            )}
+            {renderTitle(project, 'h2')}
             {project.notes && <p>{project.notes.join(", ")}</p>}
-            {project.collaborators && (
-              <p>
-                <strong>Collaborators:</strong> {project.collaborators.join(", ")}
-              </p>
-            )}
             {project.subEvents && (
               <ul className="list-disc list-inside ml-4 mt-2">
                 {project.subEvents.map((subEvent) => (
                   <li key={subEvent.title} className="mb-2">
-                    <span className="font-semibold">{subEvent.title}</span>
-                    {subEvent.url && (
-                      <p>
-                        <a
-                          href={subEvent.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-500 hover:underline"
-                        >
-                          {subEvent.url}
-                        </a>
-                      </p>
-                    )}
-                    {subEvent.collaborators && (
-                      <p>
-                        <strong>Collaborators:</strong> {subEvent.collaborators.join(", ")}
-                      </p>
-                    )}
+                    {renderTitle(subEvent, 'h3')}
                   </li>
                 ))}
               </ul>
