@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Puzzles() {
   return (
     <div className="p-8 text-left">
@@ -26,7 +24,7 @@ export default function Puzzles() {
           >
             Brass Rat Hunt 2025
           </a>{" "}
-            (author, editor)
+          (author, editor)
           <ul className="list-disc list-inside ml-6">
             <li>RSVP for a &lsquo;2Five Rings Event</li>
             <li>
@@ -45,7 +43,7 @@ export default function Puzzles() {
           >
             Mystery Hunt 2025 (Death &amp; Mayhem)
           </a>{" "}
-            (author, artist)
+          (author, artist)
           <ul className="list-disc list-inside ml-6">
             <li>
               <a
@@ -92,8 +90,8 @@ export default function Puzzles() {
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
             Aquarium Hunt 2024
-          </a>" "}
-            (editor)
+          </a>{" "}
+          (editor)
         </li>
 
         {/* MIT Sudoku Open 2024 */}
@@ -106,7 +104,7 @@ export default function Puzzles() {
           >
             MIT Sudoku Open 2024
           </a>{" "}
-            (author, editor)
+          (author, editor)
           <ul className="list-disc list-inside ml-6">
             <li>various individual puzzles</li>
             <li>
@@ -133,14 +131,14 @@ export default function Puzzles() {
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
             Aquarium Hunt 2023
-          </a>" "}
-            (author, editor)
+          </a>{" "}
+          (author, editor)
           <ul className="list-disc list-inside ml-6">
             <li>Elsa</li>
           </ul>
         </li>
 
-          {/* MIT Sudoku Open 2023 */}
+        {/* MIT Sudoku Open 2023 */}
         <li>
           <a
             href="https://puzzles.mit.edu/sudokuopen/"
@@ -150,7 +148,7 @@ export default function Puzzles() {
           >
             MIT Sudoku Open 2023
           </a>{" "}
-            (author, editor)
+          (author, editor)
           <ul className="list-disc list-inside ml-6">
             <li>various individual puzzles</li>
           </ul>
