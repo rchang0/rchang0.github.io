@@ -199,7 +199,7 @@ export default function Puzzles() {
         My Katz number is at most 4:
       </p>
         <li>
-            I coauthored Unreal Islands (2024) with Henry Wong
+            I coauthored Unreal Islands (2025) with Henry Wong
         </li>
         <li>
             Henry coauthored Wolf in the Fold (2018) with Nathan Fung
