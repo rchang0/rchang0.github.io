@@ -4,9 +4,10 @@ export default function Puzzles() {
   return (
     <div className="p-8 text-left">
       <p>
-        I write and solve a lot of puzzles -- most recently with MIT Puzzle Club, Death &amp; Mayhem, wahoo!, NES, and USA Sudoku. Stay tuned for more puzzle projects I’m working on with people from… all of them?
+        I write and solve a lot of puzzles &mdash; most recently with MIT Puzzle Club, Death &amp; Mayhem, wahoo!, NES, and USA Sudoku. Stay tuned for more puzzle projects I&rsquo;m working on with people from&hellip; all of them?
       </p>
-      <p>Some past puzzles I've authored and hunts/puzzle events I've worked on!</p>
+      <p>Some past puzzles I&apos;ve authored and hunts/puzzle events I&apos;ve worked on!</p>
+
       <ul className="list-disc list-inside ml-4">
         <li>
           Brass Rat Hunt 2025 (
@@ -15,8 +16,10 @@ export default function Puzzles() {
           </a>
           )
           <ul className="list-disc list-inside ml-6">
-            <li>RSVP for a '2Five Rings Event</li>
-            <li>Re: help I lost my brass rat! (with Eric Zhan and Riley Kong)</li>
+            <li>RSVP for a &lsquo;2Five Rings Event</li>
+            <li>
+              Re: help I lost my brass rat! (with Eric Zhan and Riley Kong)
+            </li>
           </ul>
         </li>
         <li>
@@ -63,7 +66,11 @@ export default function Puzzles() {
         </li>
         <li>
           MIT Sudoku Open 2023 and 2024 (
-          <a href="https://puzzles.mit.edu/sudokuopen/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://puzzles.mit.edu/sudokuopen/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://puzzles.mit.edu/sudokuopen/
           </a>
           )
