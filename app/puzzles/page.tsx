@@ -144,7 +144,7 @@ export default function Puzzles() {
 
         {/* High school logic puzzles */}
         <li>
-          A few random logic puzzles I wrote in high school?{" "}
+          A few random logic puzzles I wrote in high school{" "}
           <a
             href="https://drive.google.com/file/d/1cHSfO7Mu66fNECkKSXm2gEVhPxv_TwOF/view?usp=sharing"
             target="_blank"
