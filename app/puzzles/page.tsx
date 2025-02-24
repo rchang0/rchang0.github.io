@@ -25,7 +25,8 @@ export default function Puzzles() {
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
             Brass Rat Hunt 2025
-          </a>
+          </a>{" "}
+            (author, editor)
           <ul className="list-disc list-inside ml-6">
             <li>RSVP for a &lsquo;2Five Rings Event</li>
             <li>
@@ -43,7 +44,8 @@ export default function Puzzles() {
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
             Mystery Hunt 2025 (Death &amp; Mayhem)
-          </a>
+          </a>{" "}
+            (author, artist)
           <ul className="list-disc list-inside ml-6">
             <li>
               <a
@@ -81,7 +83,20 @@ export default function Puzzles() {
           </ul>
         </li>
 
-        {/* MIT Sudoku Open 2023 and 2024 */}
+        {/* Aquarium Hunt 2024 */}
+        <li>
+          <a
+            href="https://puzzles.mit.edu/aquarium/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            Aquarium Hunt 2024
+          </a>" "}
+            (editor)
+        </li>
+
+        {/* MIT Sudoku Open 2024 */}
         <li>
           <a
             href="https://puzzles.mit.edu/sudokuopen/"
@@ -89,8 +104,9 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            MIT Sudoku Open 2023 and 2024
-          </a>
+            MIT Sudoku Open 2024
+          </a>{" "}
+            (author, editor)
           <ul className="list-disc list-inside ml-6">
             <li>various individual puzzles</li>
             <li>
@@ -108,7 +124,7 @@ export default function Puzzles() {
           </ul>
         </li>
 
-        {/* Aquarium Hunt 2023 and 2024 */}
+        {/* Aquarium Hunt 2023 */}
         <li>
           <a
             href="https://puzzles.mit.edu/aquarium/2023/index.html"
@@ -116,10 +132,27 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            Aquarium Hunt 2023 and 2024
-          </a>
+            Aquarium Hunt 2023
+          </a>" "}
+            (author, editor)
           <ul className="list-disc list-inside ml-6">
             <li>Elsa</li>
+          </ul>
+        </li>
+
+          {/* MIT Sudoku Open 2023 */}
+        <li>
+          <a
+            href="https://puzzles.mit.edu/sudokuopen/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            MIT Sudoku Open 2023
+          </a>{" "}
+            (author, editor)
+          <ul className="list-disc list-inside ml-6">
+            <li>various individual puzzles</li>
           </ul>
         </li>
 
@@ -131,16 +164,17 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            MIT Undergrad Math Association Puzzle
+            MIT Undergrad Math Association Puzzle Nov 2022
           </a>{" "}
-          (Nov 2022)
+          (author)
         </li>
 
         {/* Davis Math Tournament Puzzle Round */}
-        <li>Davis Math Tournament Puzzle Round 2021 and 2022</li>
+        <li>Davis Math Tournament Puzzle Round 2022 (author)</li>
+        <li>Davis Math Tournament Puzzle Round 2021 (author)</li>
 
         {/* UC Davis Math Circle */}
-        <li>UC Davis Math Circle: Alice: A Mathematical Adventure 2021</li>
+        <li>UC Davis Math Circle: Alice: A Mathematical Adventure 2021 (author)</li>
 
         {/* High school logic puzzles */}
         <li>
