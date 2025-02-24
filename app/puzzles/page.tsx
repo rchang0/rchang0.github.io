@@ -162,9 +162,9 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            MIT Undergrad Math Association Puzzle Nov 2022
+            MIT Undergrad Math Association Puzzle
           </a>{" "}
-          (author)
+          Nov 2022 (author)
         </li>
 
         {/* Davis Math Tournament Puzzle Round */}
