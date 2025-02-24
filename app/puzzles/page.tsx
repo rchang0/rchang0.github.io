@@ -42,4 +42,83 @@ const puzzleProjects: PuzzleEvent[] = [
     ]
   },
   {
-    title: "MIT Sudoku Open 2023 and 2
+    title: "MIT Sudoku Open 2023 and 2024",
+    url: "https://puzzles.mit.edu/sudokuopen/",
+    subEvents: [
+      { title: "Various individual puzzles" },
+      {
+        title: "Force / Acceleration team round",
+        url: "https://puzzles.mit.edu/sudokuopen/2024/team-ii-e.pdf",
+        collaborators: ["Tyler Chen"]
+      }
+    ]
+  },
+  {
+    title: "Aquarium Hunt 2023 and 2024",
+    url: "https://puzzles.mit.edu/aquarium/2023/index.html",
+    subEvents: [{ title: "Elsa" }]
+  },
+  {
+    title: "MIT Undergrad Math Association Puzzle",
+    url: "https://uma.mit.edu/puzzle",
+    notes: ["Nov 2022"]
+  },
+  {
+    title: "Davis Math Tournament Puzzle Round",
+    notes: ["2021 and 2022"]
+  },
+  {
+    title: "UC Davis Math Circle: Alice: A Mathematical Adventure",
+    notes: ["2021"]
+  },
+  {
+    title: "A few random logic puzzles I wrote in high school?",
+    url: "https://drive.google.com/file/d/1cHSfO7Mu66fNECkKSXm2gEVhPxv_TwOF/view?usp=sharing"
+  }
+];
+
+export default function Puzzles() {
+  const renderTitle = (event: PuzzleEvent, Tag: keyof JSX.IntrinsicElements = 'h2') => {
+    return (
+      <Tag className={Tag === 'h2' ? "text-xl font-bold" : "text-lg font-semibold"}>
+        {event.url ? (
+          <a
+            href={event.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            {event.title}
+          </a>
+        ) : (
+          event.title
+        )}
+        {event.collaborators && (
+          <span> ({event.collaborators.join(", ")})</span>
+        )}
+      </Tag>
+    );
+  };
+
+  return (
+    <div className="p-8">
+      <div className="text-left">
+        {puzzleProjects.map((project) => (
+          <div key={project.title} className="mb-6">
+            {renderTitle(project, 'h2')}
+            {project.notes && <p>{project.notes.join(", ")}</p>}
+            {project.subEvents && (
+              <ul className="list-disc list-inside ml-4 mt-2">
+                {project.subEvents.map((subEvent) => (
+                  <li key={subEvent.title} className="mb-2">
+                    {renderTitle(subEvent, 'h3')}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
