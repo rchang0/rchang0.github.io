@@ -205,7 +205,7 @@ export default function Puzzles() {
             Henry coauthored Wolf in the Fold (2018) with Nathan Fung
         </li>
         <li>
-            Nathan coauthored Spacing Out (2018) with Seth Bisen-Hersh
+            Nathan coauthored Spacing Out (2024) with Seth Bisen-Hersh
         </li>
         <li>
             Seth coauthored A Mad Cocktail Party (2014) with Dan Katz
