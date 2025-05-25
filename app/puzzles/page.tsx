@@ -20,6 +20,35 @@ export default function Puzzles() {
       <p>Some past puzzles I&apos;ve authored and hunts/puzzle events I&apos;ve worked on!</p>
 
       <ul className="list-disc list-inside ml-4">
+        {/* MIT Sudoku Open 2025 */}
+        <li>
+          <a
+            href="https://puzzles.mit.edu/sudokuopen/2025/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            MIT Sudoku Open 2025
+          </a>{" "}
+          (author, editor)
+          <ul className="list-disc list-inside ml-6">
+            <li>various individual puzzles</li>
+            <li>
+              This or That team round{" "}
+              <a
+                href="https://puzzles.mit.edu/sudokuopen/2025/this_or_that.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
+              >
+                (pdf)
+              </a>{" "}
+            </li>
+          </ul>
+        </li>
+
+
+          
         {/* Brass Rat Hunt 2025 */}
         <li>
           <a
