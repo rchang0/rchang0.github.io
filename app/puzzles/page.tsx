@@ -12,8 +12,8 @@ export default function Puzzles() {
       <hr className="my-4" />
       <p>
         wahoo! is a new Mystery Hunt team composed of mostly MIT students and alumni. 
-          We&apos;ll do online hunts throughout the year together. Please reach out to me 
-          if you&apos;re interested in joining!
+          We do online hunts throughout the year together. Please reach out to me 
+          if you&apos;re interested in joining! All skill levels and experience are welcome!
       </p>
       <hr className="my-4" />
 
@@ -31,7 +31,7 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            Sudoku GP Round 4, 2025
+            WPF Sudoku GP Round 4, 2025
           </a>{" "}
           (co-author with Tyler Chen)
           <ul className="list-disc list-inside ml-6">
