@@ -149,7 +149,14 @@ export default function Puzzles() {
               >
                 Maze of Lies
               </a>{" "}
-              (with Denis Auroux)
+              (with Denis Auroux), <a
+                href="https://www.youtube.com/watch?v=WFZ6AMTXUJk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
+              >
+                solve video by CTC
+              </a>{" "}
             </li>
           </ul>
         </li>
