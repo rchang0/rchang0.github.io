@@ -20,6 +20,44 @@ export default function Puzzles() {
       <p>Some past puzzles I&apos;ve authored and hunts/puzzle events I&apos;ve worked on!</p>
 
       <ul className="list-disc list-inside ml-4">
+
+
+
+        {/* Sudoku GP April 2025 */}
+        <li>
+          <a
+            href="https://gp.worldpuzzle.org/content/archive-2025"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            Sudoku GP Round 4, 2025
+          </a>{" "}
+          (co-author with Tyler Chen)
+          <ul className="list-disc list-inside ml-6">
+            <li>
+              Single Parity Skyscrapers{" "}
+              <a
+                href="https://gp.worldpuzzle.org/sites/default/files/Puzzles/2025/2025_SudokuRound4_IB.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
+              >
+                (IB)
+              </a>
+                <a
+                href="https://gp.worldpuzzle.org/sites/default/files/Puzzles/2025/2025_SudokuRound4.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
+              >
+                (competition)
+              </a>{" "}
+            </li>
+          </ul>
+        </li>
+
+          
         {/* MIT Sudoku Open 2025 */}
         <li>
           <a
