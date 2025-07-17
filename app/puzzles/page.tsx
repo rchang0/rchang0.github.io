@@ -31,7 +31,7 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            WPF Sudoku GP Round 4, 2025
+            WPF Sudoku Grand Prix Round 4, 2025
           </a>{" "}
           (co-author with Tyler Chen)
           <ul className="list-disc list-inside ml-6">
