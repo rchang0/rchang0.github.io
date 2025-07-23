@@ -3,7 +3,7 @@ export default function Puzzles() {
     <div className="p-8 text-left">
       <p>
         I write and solve a lot of puzzles &mdash; most recently with MIT Puzzle
-        Club, Death &amp; Mayhem, wahoo!, NES, and USA Sudoku&Backslash;Puzzle. Stay tuned for
+        Club, Death &amp; Mayhem, wahoo!, NES, and USA Sudoku&sol;Puzzle. Stay tuned for
         more puzzle projects I&rsquo;m working on with people from&hellip; all
         of them?
       </p>
