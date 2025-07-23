@@ -155,7 +155,7 @@ export default function Puzzles() {
                 rel="noopener noreferrer"
                 className="text-blue-500 visited:text-purple-600 hover:underline"
               >
-                solve video by CTC
+                solve video by CTC and Matt Parker
               </a>{" "}
             </li>
           </ul>
