@@ -21,6 +21,42 @@ export default function Puzzles() {
 
       <ul className="list-disc list-inside ml-4">
 
+          {/* Aquarium Hunt 2025 */}
+        <li>
+          <a
+            href="https://puzzles.mit.edu/aquarium/2025/index.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            Aquarium Hunt 2025
+          </a>{" "}
+          (author, editor)
+          <ul className="list-disc list-inside ml-6">
+            <li>
+              <a
+                href="https://puzzles.mit.edu/aquarium/2025/One%20Fish,%20Two%20Fish.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
+              >
+                One Fish Two Fish
+              </a>{" "}
+              (with Aloysius Ng)
+            </li>
+            <li>
+              <a
+                href="https://puzzles.mit.edu/aquarium/2025/The%20Recirculating%20Aquarium.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
+              >
+                The Recirculating Aquarium
+              </a>{" "}
+              (with Benson Lin)
+            </li>
+          </ul>
+        </li>
 
 
         {/* Sudoku GP April 2025 */}
