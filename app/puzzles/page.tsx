@@ -40,12 +40,12 @@ export default function Puzzles() {
 
           {/* GP Finals 2025 */}
         <li>
-          {/* <a
-            href="https://puzzles.mit.edu/crosswordopen/"
+          <a
+            href="https://gp.worldpuzzle.org/content/archive-2025"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
-          > */}
+            >
             WPF Sudoku Grand Prix Finals at WSPC 2025
           </a>{" "}
           (author)
