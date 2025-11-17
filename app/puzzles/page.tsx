@@ -21,6 +21,39 @@ export default function Puzzles() {
 
       <ul className="list-disc list-inside ml-4">
 
+
+          {/* MIT Crossword Open 2025 */}
+        <li>
+          <a
+            href="https://puzzles.mit.edu/crosswordopen/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            MIT Crossword Open 2025
+          </a>{" "}
+          (author)
+          <ul className="list-disc list-inside ml-6">
+            <li>various puzzles</li>
+          </ul>
+        </li>
+
+          {/* GP Finals 2025 */}
+        <li>
+          {/* <a
+            href="https://puzzles.mit.edu/crosswordopen/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          > */}
+            WPF Sudoku Grand Prix Finals at WSPC 2025
+          </a>{" "}
+          (author)
+          <ul className="list-disc list-inside ml-6">
+            <li>Quad Sudoku</li>
+          </ul>
+        </li>
+
           {/* Aquarium Hunt 2025 */}
         <li>
           <a
