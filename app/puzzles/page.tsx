@@ -338,7 +338,7 @@ export default function Puzzles() {
         </li>
       </ul>
       <hr className="my-4" />
-        <p>
+        {/* <p>
         My Katz number is at most 4:
       </p>
         <li>
@@ -352,7 +352,7 @@ export default function Puzzles() {
         </li>
         <li>
             Seth coauthored A Mad Cocktail Party (2014) with Dan Katz
-        </li>
+        </li> */}
 
     </div>
   );
