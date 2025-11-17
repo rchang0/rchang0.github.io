@@ -338,21 +338,7 @@ export default function Puzzles() {
         </li>
       </ul>
       <hr className="my-4" />
-      <p>
-        My Katz number is at most 4:
-      </p>
-        <li>
-            I coauthored Unreal Islands (2025) with Henry Wong
-        </li>
-        <li>
-            Henry coauthored Wolf in the Fold (2018) with Nathan Fung
-        </li>
-        <li>
-            Nathan coauthored Spacing Out (2024) with Seth Bisen-Hersh
-        </li>
-        <li>
-            Seth coauthored A Mad Cocktail Party (2014) with Dan Katz
-        </li>
+
 
     </div>
   );
