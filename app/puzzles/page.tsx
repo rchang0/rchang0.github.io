@@ -21,6 +21,44 @@ export default function Puzzles() {
 
       <ul className="list-disc list-inside ml-4">
 
+          {/* MIT Sudoku Open 2026 */}
+        <li>
+          <a
+            href="https://puzzles.mit.edu/sudokuopen"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            MIT Sudoku Open 2026
+          </a>{" "}
+          (author, editor)
+          <ul className="list-disc list-inside ml-6">
+            <li>various individual puzzles</li>
+            <li>
+              More Interlocked Stratagems Team Round (with Tyler Chen)
+            </li>
+          </ul>
+        </li>
+
+          {/* Brass Rat Hunt 2026 */}
+        <li>
+          <a
+            href="https://puzzles.mit.edu/brassrat/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            Brass Rat Hunt 2026
+          </a>{" "}
+          (author, artist)
+          <ul className="list-disc list-inside ml-6">
+            <li>Tactics (with Riley Kong)</li>
+            <li>
+              EC 6W Spring 2026 gc
+            </li>
+          </ul>
+        </li>
+
 
           {/* MIT Crossword Open 2025 */}
         <li>
