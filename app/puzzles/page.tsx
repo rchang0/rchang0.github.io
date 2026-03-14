@@ -21,22 +21,21 @@ export default function Puzzles() {
 
       <ul className="list-disc list-inside ml-4">
 
-
-          {/* Brass Rat Hunt 2026 */}
+          {/* MIT Sudoku Open 2026 */}
         <li>
           <a
-            href="https://puzzles.mit.edu/brassrat/"
+            href="https://puzzles.mit.edu/sudokuopen"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            Brass Rat Hunt 2026
+            MIT Sudoku Open 2026
           </a>{" "}
-          (author, artist)
+          (author, editor)
           <ul className="list-disc list-inside ml-6">
-            <li>Tactics (with Riley Kong)</li>
+            <li>various individual puzzles</li>
             <li>
-              EC 6W Spring 2026 gc
+              More Interlocked Stratagems Team Round (with Tyler Chen)
             </li>
           </ul>
         </li>
