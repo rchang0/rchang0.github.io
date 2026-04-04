@@ -59,6 +59,41 @@ export default function Puzzles() {
           </ul>
         </li>
 
+          {/* MIT 12 Days Instagram 2025 */}
+        <li>
+          <a
+            href="https://www.instagram.com/mit.puzzle.club/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            MIT Puzzle Club 12 Days Hunt 2025
+          </a>{" "}
+          (author, editor)
+          <ul className="list-disc list-inside ml-6">
+            <li>
+              <a
+                href="https://www.instagram.com/p/DSg14kujEFC/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
+              >
+                Day 8
+              </a>{" "}
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/p/DSrIhqJkSJE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
+              >
+                Day 12
+              </a>{" "}
+            </li>
+          </ul>
+        </li>
+
 
           {/* MIT Crossword Open 2025 */}
         <li>
