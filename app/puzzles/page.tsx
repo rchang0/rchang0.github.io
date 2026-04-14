@@ -21,6 +21,25 @@ export default function Puzzles() {
 
       <ul className="list-disc list-inside ml-4">
 
+
+            {/* MIT Logic Puzzle Open 2026 */}
+        <li>
+          <a
+            href="https://puzzles.mit.edu/logicopen"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            MIT Logic Puzzle Open 2026
+          </a>{" "}
+          (author, editor)
+          <ul className="list-disc list-inside ml-6">
+            <li>
+              Kurotto Team Round (with ft029, Barbitos, and djmathman)
+            </li>
+          </ul>
+        </li>
+          
             {/* MIT Sudoku Open 2026 */}
         <li>
           <a
