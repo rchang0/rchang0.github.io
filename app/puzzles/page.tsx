@@ -32,7 +32,7 @@ export default function Puzzles() {
           >
             MIT Logic Puzzle Open 2026
           </a>{" "}
-          (author, editor)
+          (author)
           <ul className="list-disc list-inside ml-6">
             <li>
               Kurotto Team Round (with ft029, Barbitos, and djmathman)
