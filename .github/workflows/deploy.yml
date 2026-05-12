@@ -19,7 +19,7 @@ jobs:
       - uses: pnpm/action-setup@v6
         with:
           version: latest
-      - run: pnpm i
+      - run: pnpm i --ignore-scripts
       - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
         with:
