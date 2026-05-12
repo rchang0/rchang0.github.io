@@ -39,6 +39,16 @@ export default function Puzzles() {
             <li>
               Heated Rivalries (with Alex Stoneman and Atul Shatavart Nadig)
             </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1EHM7KzKaaCgfdvYM4O1vIDQJcJf3fCkW/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
+              >
+                Stickers!!
+              </a>{" "}
+            </li>
           </ul>
         </li>
 
