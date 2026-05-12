@@ -21,26 +21,6 @@ export default function Puzzles() {
 
       <ul className="list-disc list-inside ml-4">
 
-        {/* BAPHL 2026 */}
-        <li>
-          <a
-            href="https://26.baphl.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 visited:text-purple-600 hover:underline"
-          >
-            BAPHL 26
-          </a>{" "}
-          (author, artist)
-          <ul className="list-disc list-inside ml-6">
-            <li>
-              Wormholes (with Benson Lin)
-            </li>
-            <li>
-              Heated Rivalries (with Alex Stoneman and Atul Shatavart Nadig)
-            </li>
-          </ul>
-        </li>
           
             {/* MIT Logic Puzzle Open 2026 */}
         <li>
