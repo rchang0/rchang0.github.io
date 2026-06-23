@@ -1,10 +1,10 @@
 import Image from "next/image";
-import starrynight from "./starrynight.jpg";
+import maine from "./maine.jpeg";
 
 export default function Home() {
     return (
         <div className="max-w-screen-sm px-8 mx-auto flex flex-col items-center">
-            <Image src={starrynight} alt="Profile" className="my-8 w-1/2 h-auto" />
+            <Image src={maine} alt="Profile" className="my-8 w-1/2 h-auto" />
             <h1 className="text-3xl text-center">becca chang</h1>
             <p className="text-base my-2 text-center">rebchang[at]mit[dot]edu</p>
             <p className="text-center my-4">
