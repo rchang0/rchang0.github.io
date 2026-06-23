@@ -30,7 +30,7 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            US Sudoku Team Qualifying 2026
+            US Sudoku Team Qualifying
           </a>{" "}
           (co-author with Tyler Chen and Thomas Snyder)
           <ul className="list-disc list-inside ml-6">
@@ -42,7 +42,7 @@ export default function Puzzles() {
           </ul>
         </li>  
 
-        {/* ec-inform Sudoku */}
+        {/* EC Inform Sudoku */}
         <li>
           <a
             href="https://drive.google.com/file/d/1UGZr-59hHGRmkiDbpytCCtXFLDas0vpG/view?usp=sharing"
@@ -50,7 +50,7 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            Coded Sudoku for ec-inform, May 2026
+            Sudoku for EC Inform
           </a>{" "}
           (author)
         </li> 
