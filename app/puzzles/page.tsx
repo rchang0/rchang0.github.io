@@ -1,11 +1,11 @@
 function FavoriteMarker() {
   return (
     <span
-      className="mr-2 text-yellow-500"
+      className="inline-flex w-4 mr-1 justify-center align-middle text-black"
       title="Favorite puzzle"
       aria-label="Favorite puzzle"
     >
-      ★
+      ☆
     </span>
   );
 }
