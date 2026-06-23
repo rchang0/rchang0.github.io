@@ -1,7 +1,7 @@
 function FavoriteMarker() {
   return (
     <span
-      className="inline-flex w-4 mr-1 justify-center align-middle text-black"
+      className="relative -left-1 inline-flex w-4 mr-1 justify-center align-middle"
       title="Favorite puzzle"
       aria-label="Favorite puzzle"
     >
@@ -28,7 +28,7 @@ export default function Puzzles() {
       </p>
       <hr className="my-4" />
 
-      <p>Some past puzzles I&apos;ve authored and hunts/puzzle events I&apos;ve worked on!</p>
+      <p>Some past puzzles I&apos;ve authored and hunts/puzzle events I&apos;ve worked on! My personal favorites are marked with stars.</p>
 
       <ul className="list-disc list-inside ml-4">
 
