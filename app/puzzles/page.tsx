@@ -104,7 +104,7 @@ export default function Puzzles() {
             {/* MIT Logic Puzzle Open 2026 */}
         <li>
           <a
-            href="https://puzzles.mit.edu/logicopen"
+            href="https://puzzles.mit.edu/logicopen/2026/index.html"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
@@ -114,6 +114,12 @@ export default function Puzzles() {
           (author)
           <ul className="list-disc list-inside ml-6">
             <li>
+                <a
+                href="https://puzzles.mit.edu/logicopen/2026/team.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 visited:text-purple-600 hover:underline"
+              >
               Kurotto Team Round (with ft029, Barbitos, and djmathman)
             </li>
           </ul>
