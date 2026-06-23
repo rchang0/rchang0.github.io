@@ -50,7 +50,7 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            Sudoku for ec inform, May 2026
+            Sudoku for ec-inform, May 2026
           </a>{" "}
           (author)
         </li> 
