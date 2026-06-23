@@ -50,7 +50,7 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            Sudoku for EC Inform
+            Sudoku for ec-inform
           </a>{" "}
           (author)
         </li> 
