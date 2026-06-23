@@ -1,5 +1,5 @@
 import Image from "next/image";
-import maine from "./maine.jpeg";
+import maine from "./maine.JPEG";
 
 export default function Home() {
     return (
