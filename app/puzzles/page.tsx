@@ -42,7 +42,7 @@ export default function Puzzles() {
           </ul>
         </li>  
 
-        {/* EC Inform Sudoku */}
+        {/* ec-inform Sudoku */}
         <li>
           <a
             href="https://drive.google.com/file/d/1UGZr-59hHGRmkiDbpytCCtXFLDas0vpG/view?usp=sharing"
