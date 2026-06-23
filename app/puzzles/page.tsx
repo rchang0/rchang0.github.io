@@ -47,7 +47,10 @@ export default function Puzzles() {
           <ul className="list-disc list-inside ml-6">
             <li>Diagonal</li>
             <li>Sudo-Kurve</li>
-            <li>Distances</li>
+            <li className="list-none">
+              <FavoriteMarker />
+                  Distances
+            </li>
             <li>Consecutive Pairs Isodoku</li>
             <li>Scattered Extra Regions Shared Borders</li>
           </ul>
@@ -61,7 +64,7 @@ export default function Puzzles() {
             rel="noopener noreferrer"
             className="text-blue-500 visited:text-purple-600 hover:underline"
           >
-            Sudoku for ec&#8211;inform, May 2026
+            Coded Sudoku for ec&#8211;inform, May 2026
           </a>{" "}
           (author)
         </li> 
