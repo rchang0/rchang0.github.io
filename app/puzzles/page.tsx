@@ -21,6 +21,40 @@ export default function Puzzles() {
 
       <ul className="list-disc list-inside ml-4">
 
+
+        {/* USSQ */}
+        <li>
+          <a
+            href="https://wpc.puzzles.com/ussq2026/default.asp?mode=login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            US Sudoku Team Qualifying
+          </a>{" "}
+          (co-author with Tyler Chen and Thomas Snyder)
+          <ul className="list-disc list-inside ml-6">
+            <li>Diagonal</li>
+            <li>Sudo-Kurve</li>
+            <li>Distances</li>
+            <li>Consecutive Pairs Isodoku</li>
+            <li>Scattered Extra Regions Shared Borders</li>
+          </ul>
+        </li>  
+
+        {/* EC Inform Sudoku */}
+        <li>
+          <a
+            href="https://drive.google.com/file/d/1UGZr-59hHGRmkiDbpytCCtXFLDas0vpG/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >
+            Sudoku for EC Inform
+          </a>{" "}
+          (author)
+        </li> 
+
         {/* BAPHL 2026 */}
         <li>
           <a
