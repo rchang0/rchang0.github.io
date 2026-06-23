@@ -213,7 +213,35 @@ export default function Puzzles() {
           </a>{" "}
           (author)
           <ul className="list-disc list-inside ml-6">
-            <li>various puzzles</li>
+              <li>
+                <a
+            href="https://puzzles.mit.edu/crosswordopen/2025/minirush.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >mini18
+                </a>{" "}
+            </li>
+              <li>
+                <a
+            href="https://puzzles.mit.edu/crosswordopen/2025/team2.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >Team Round 2 (???) 2D
+                </a>{" "}
+                  (with Riley Kong)
+            </li>
+            <li>
+                <a
+            href="https://puzzles.mit.edu/crosswordopen/2025/frootloops.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 visited:text-purple-600 hover:underline"
+          >Froot Loops
+                </a>{" "}
+                (with Riley Kong)
+            </li>
           </ul>
         </li>
 
