@@ -1,3 +1,14 @@
+function FavoriteMarker() {
+  return (
+    <span
+      className="mr-2 text-yellow-500"
+      title="Favorite puzzle"
+      aria-label="Favorite puzzle"
+    >
+      ★
+    </span>
+  );
+}
 export default function Puzzles() {
   return (
     <div className="p-8 text-left">
