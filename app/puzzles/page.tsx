@@ -221,7 +221,10 @@ export default function Puzzles() {
           </a>{" "}
           (author)
           <ul className="list-disc list-inside ml-6">
-            <li>Quad Sudoku</li>
+            <li className="list-none">
+              <FavoriteMarker />
+                Quad Sudoku
+            </li>
           </ul>
         </li>
 
@@ -369,7 +372,8 @@ export default function Puzzles() {
               </a>{" "}
               (with Atul Shatavart Nadig and Henry Wong)
             </li>
-            <li>
+            <li className="list-none">
+              <FavoriteMarker />
               <a
                 href="https://www.two-pi-noir.agency/puzzles/sounds_like_a_dodo_to_me"
                 target="_blank"
@@ -380,7 +384,8 @@ export default function Puzzles() {
               </a>{" "}
               (with Atul Shatavart Nadig)
             </li>
-            <li>
+            <li className="list-none">
+              <FavoriteMarker />
               <a
                 href="https://www.two-pi-noir.agency/puzzles/maze_of_lies"
                 target="_blank"
