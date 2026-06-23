@@ -120,7 +120,9 @@ export default function Puzzles() {
                 rel="noopener noreferrer"
                 className="text-blue-500 visited:text-purple-600 hover:underline"
               >
-              Kurotto Team Round (with ft029, Barbitos, and djmathman)
+              Kurotto Team Round
+                </a>{" "}
+                (with ft029, Barbitos, and djmathman)
             </li>
           </ul>
         </li>
